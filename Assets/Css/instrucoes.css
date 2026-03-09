@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    color: black;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: green;
+}
+
+nav ul {
+    display: flex;
+    gap: 100px;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: green;
+}
+
+.login-btn {
+    padding: 10px 25px;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+
+.intro {
+    padding: 100px;
+    text-align: center;
+    color: white;
+    background:
+        linear-gradient(rgba(0, 60, 0, 0.6), rgba(0, 60, 0, 0.6)),
+        url("../Img/campo_4x.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+}
+
+.intro h1 {
+    font-size: 42px;
+}
+
+.intro p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.processo {
+    padding: 80px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    width: 230px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.dicas {
+    padding: 80px;
+    text-align: center;
+}
+
+.dicas ul {
+    list-style: none;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.dicas li {
+    margin: 15px 0;
+}
+
+
+.lixeiras {
+    padding: 80px;
+    text-align: center;
+    background: #f4f6f4;
+
+}
+
+.lixeiras h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+
+}
+
+
+.lixeiras-grid {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    max-width: 900px;
+    margin: auto;
+
+}
+
+.lixeira {
+
+    height: 180px;
+    padding: 25px;
+    border-radius: 14px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+
+}
+
+
+
+.lixeira-Azul {
+    background: blue;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.lixeira-Vermelha {
+    background: red;
+    border-radius: 20px;
+    color: white;
+}
+
+.lixeira-Verde {
+    background: green;
+    border-radius: 20px;
+    color: white;
+
+
+}
+
+.lixeira-Amarela {
+    background: yellow;
+    color: black;
+    border-radius: 20px;
+
+}
+
+.lixeira-Marrom {
+    background: brown;
+    border-radius: 20px;
+    color: white;
+}
+
+.lixeira-Cinza {
+    background: gray;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+.lixeira-Azul:hover {
+     transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+
+}
+
+.lixeira-Vermelha:hover {
+     transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+
+}
+
+.lixeira-Verde:hover {
+     transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+
+}
+
+.lixeira-Amarela:hover {
+     transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+
+}
+
+.lixeira-Marrom:hover {
+     transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+
+}
+
+.lixeira-Cinza:hover {
+     transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+
+
+
+
+footer {
+    background: #1b3a1b;
+    color: white;
+    padding: 50px 80px;
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+footer h4 {
+    margin-bottom: 10px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    margin: 5px 0;
+    color: wheat;
+}
+
+.copyright {
+    margin-top: 30px;
+    color: gray;
+    font-size: 14px;
+}

@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background:
+        linear-gradient(rgba(0, 60, 0, 0.5), rgba(0, 60, 0, 0.5)),
+        url("../Img/campo_4x.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+}
+
+.login {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-card {
+
+    background: white;
+    padding: 40px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.login-card h1 {
+    color: green;
+    margin-bottom: 10px;
+
+}
+
+.login-card h2 {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 25px;
+
+}
+
+.grupo-inputs {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.grupo-inputs label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+
+    color: black;
+
+}
+
+.grupo-inputs input {
+
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    outline: none;
+    transition: 0.3s;
+}
+
+.grupo-inputs input:focus {
+    border-color: green;
+
+}
+
+.botao {
+
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin: 15px;
+    border-radius: 6px;
+    background: green;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+
+}
+
+.botao:hover {
+    background: rgb(5, 192, 5);
+
+}
+
+.esqueceu {
+    margin-top: 12px;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+
+.esqueceu a {
+    text-decoration: none;
+    color: gray;
+}
+
+.registrar {
+    margin-top: 15px;
+    font-size: 14px;
+
+}
+
+.registrar a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+
+}

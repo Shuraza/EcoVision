@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Assets/Css/denuncia.css">
+
+    <title>EcoVision</title>
+</head>
+
+<body>
+
+    <!-- ------------------------header------------------------------ -->
+
+    <nav>
+
+        <a href="Index.html">
+            <div class="logo">EcoVision</div>
+        </a>
+
+        <ul>
+            <li><a href="acompanhar_coleta.html">Coletas</a></li>
+            <li><a href="acompanhar_denuncias.html">Denúncia</a></li>
+            <li><a href="instrucoes.html">Instruções</a></li>
+            <li><a class="login-btn" href="login.html">Login</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- ------------------------tela coleta------------------------------ -->
+
+    <section class="coleta">
+
+        <div class="coleta-card">
+
+            <h1>Registrar Denúncia</h1>
+
+            <p>Relate problemas ambientais como poluição ou desmatamento.</p>
+
+            <form>
+
+                <div class="input-group">
+                    <label>Título da Denúncia</label>
+                    <input type="text" placeholder="Ex: Poluição no Rio">
+                </div>
+
+                <div class="input-group">
+                    <label>Localização</label>
+                    <input type="text" placeholder="Cidade ou endereço">
+                </div>
+
+                <div class="input-group">
+                    <label>Tipo de resíduo</label>
+
+                    <select>
+                        <option>Plástico</option>
+                        <option>Papel</option>
+                        <option>Metal</option>
+                        <option>Vidro</option>
+                        <option>Orgânico</option>
+                        <option>Outro</option>
+
+                    </select>
+
+                </div>
+
+                <div class="input-group">
+                    <label>Quantidade</label>
+                    <input type="number" placeholder="Kg coletados">
+                </div>
+
+                <div class="input-group">
+                    <label>Data da denúncia</label>
+                    <input type="date">
+                </div>
+
+                <div class="input-group">
+                    <label>Descrição</label>
+                    <textarea placeholder="Descreva detalhes da denúncia"></textarea>
+                </div>
+
+                <div class="input-group">
+                    <label>Imagem</label>
+                    <input type="text" placeholder="Insira a imagem">
+                </div>
+
+
+                <button type="submit">Registrar Denúncia</button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
